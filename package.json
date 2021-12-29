@@ -1,0 +1,40 @@
+{
+  "name": "react-redux-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/react-icons": "^3.0.0",
+    "@types/reselect": "^2.2.0",
+    "@types/uuid": "^8.3.3",
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "node-sass": "^7.0.0",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "5.2.0",
+    "redux": "^4.1.2",
+    "redux-observable": "^2.0.0",
+    "reselect": "^4.1.5",
+    "rxjs": "^7.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/classnames": "^2.3.1",
+    "@types/query-string": "^6.3.0",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/react-redux": "^7.1.20",
+    "@types/react-router-dom": "^5.3.2",
+    "@vitejs/plugin-react": "^1.0.7",
+    "redux-devtools-extension": "^2.13.9",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}

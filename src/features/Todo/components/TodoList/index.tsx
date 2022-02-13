@@ -61,14 +61,6 @@ const TodoList = (props: Props) => {
     setIsEditing(false)
     dispatch(editedTodo(updateTodo))
   }
-  //handle update
-  // const handleUpdateTodo = (id: any, updateTodo: any) => {
-  //   const updatedItem = todoList.map((todo: any) => {
-  //     return todo.id === id ? updateTodo : todo
-  //   })
-  //   setIsEditing(false)
-  //   dispatch(editedTodo(updatedItem))
-  // }
   return (
     <>
       <div className="list">
@@ -126,12 +118,7 @@ const TodoList = (props: Props) => {
                   />
                 )}
                 {isEditing && editTodo.id === todo.id ? (
-                  <GiCancel
-                    style={{}}
-                    size={'.8em'}
-                    color={'#dc3545'}
-                    // onClick={() => handleDelete(todo.id)}
-                  />
+                  <GiCancel style={{}} size={'.8em'} color={'#dc3545'} />
                 ) : (
                   <FaTrashAlt
                     style={{}}
